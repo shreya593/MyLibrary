@@ -14,7 +14,7 @@ import android.widget.Button;
 public class myLibrary {
   public Button btn;
   @SuppressLint("WrongConstant")
-  private void manageBlinkEffect(Button btn) {
+  public void manageBlinkEffect(Button btn) {
     ObjectAnimator anim = ObjectAnimator.ofInt(btn, "backgroundColor", Color.WHITE, Color.RED,
             Color.WHITE);
 
